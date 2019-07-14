@@ -117,7 +117,7 @@ export class AdminDashboardComponent {
     }
   ];
 
-  activeDayIsOpen = true;
+  activeDayIsOpen: boolean;
 
   constructor(private modal: NgbModal) {}
 
